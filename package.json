@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-postgresql-typescript-rest-api-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "concurrently \"tsc --watch\" \"nodemon dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeffrey-Oechsner/Nodejs-PostgreSQL-Typescript-REST-API-CRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Jeffrey-Oechsner/Nodejs-PostgreSQL-Typescript-REST-API-CRUD/issues"
+  },
+  "homepage": "https://github.com/Jeffrey-Oechsner/Nodejs-PostgreSQL-Typescript-REST-API-CRUD#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/pg": "^8.23.1",
+    "concurrently": "^10.0.6",
+    "nodemon": "^3.1.14",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
+}
